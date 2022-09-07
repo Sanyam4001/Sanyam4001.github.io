@@ -132,14 +132,9 @@
   /* ------MERCHANDISE------ */
   .buy{
       
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     
-      flex-direction: row;
-      padding: 3%;
-      justify-content: space-evenly;
-       overflow: hidden;
-      
-        justify-content: space-evenly; 
       
   }
   
@@ -166,6 +161,7 @@
   }
   .buyitem{
     position: relative;
+    display:flex
   }
   .buyitem .btn2 .text{
     font-size: x-large;
@@ -208,17 +204,15 @@
   /* ------footer----- */
   .footer{
       color: aliceblue;
-      padding:3%;
-      text-align: center;
-      display:flex;
-      flex-direction:row;
-      width: 100%;
-
-      justify-content: center;
-      justify-content: space-evenly; 
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    padding-top: 15px;
+   
   }
   .foot{
+    padding-top: 30px;
     text-align: center;
     justify-content: center;
+    padding-bottom: 30px;
   }
 /* ----------------------- */
