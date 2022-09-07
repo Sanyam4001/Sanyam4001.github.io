@@ -7,9 +7,29 @@
     background-color:black;
 }
 
+.gif2{
+    display:none;
+}
+
 /* ----- Media Queries ----- */
 
 @media (max-width:900px) {
+   
+    .gif{
+
+        display:none;
+    }
+    #logo4{
+        display:none;
+    }
+    .gif2{
+        display: flex;   
+        background-color: black;
+    }
+    #logo5{
+        width:100%;
+        height: auto;
+    }
     .slider{
         margin-top:0vh;
     }
