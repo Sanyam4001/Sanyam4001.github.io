@@ -32,6 +32,14 @@
     .slider{
         margin-top:0vh;
     }
+    .slide:hover { 
+        
+        animation-play-state:paused; 
+      }
+      .slide img:hover{
+        transform:scale(1.04);
+        
+      }
     
 }
 
@@ -89,14 +97,7 @@
         padding: 15px;
         flex-shrink: 0;
     }
-    .slide:hover { 
-        
-        animation-play-state:paused; 
-      }
-      .slide img:hover{
-        transform:scale(1.02);
-        
-      }
+    
     
     
 
