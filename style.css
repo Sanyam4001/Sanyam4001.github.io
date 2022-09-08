@@ -32,15 +32,19 @@
     .slider{
         margin-top:0vh;
     }
+    
+    
+}
+@media (min-width:700px){
+    
     .slide:hover { 
         
         animation-play-state:paused; 
       }
       .slide img:hover{
-        transform:scale(1.04);
+        transform:scale(1.03);
         
       }
-    
 }
 
 /* ----- ************ ----- */
